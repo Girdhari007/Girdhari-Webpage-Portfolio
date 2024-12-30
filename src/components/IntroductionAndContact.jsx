@@ -25,8 +25,8 @@ const IntroductionAndContact = () => {
     >
       <h1 className="text-5xl md:text-8xl font-bold">{displayedText}</h1>
       <p className="mt-4 text-lg md:text-xl font-light">
-        A passionate software developer specializing in MERN stack, system design, and problem-solving.
-      </p>
+      Hi there, I'm Girdhari Lal, a passionate developer skilled in React, Java, HTML, CSS, Node.js, and SQL. I thrive on creating dynamic and efficient web applications that deliver exceptional user experiences.
+        </p>
 
       {/* Responsive Contact Me Section */}
       <div className="mt-12 flex flex-col items-center gap-4 sm:flex-row sm:justify-center sm:gap-6">

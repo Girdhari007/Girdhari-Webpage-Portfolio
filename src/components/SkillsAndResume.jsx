@@ -1,18 +1,24 @@
 import React from "react";
-import Icon from "../assets/react (1).svg";
-import SQL from "../assets/database-sql.svg";
-import ML from "../assets/machine-learning-model.svg";
-import Excell from "../assets/microsoft-excel.svg";
-import BI from "../assets/powerbi.svg";
-import Py from "../assets/logo-python.svg";
+import Icon from "../assets/react.svg";
+import SQL from "../assets/sql-database-generic.svg";
+
+import DB from "../assets/database-mongo-db.svg"
+import Cpp from "../assets/file-type-cpp3.svg"
+import Css from "../assets/file-type-css.svg"
+import java from "../assets/java-original.svg"
+import Node from "../assets/file-type-node.svg"
+
+
 
 const skills = [
   { icon: Icon, name: "React" },
-  { icon: Py, name: "Python" },
-  { icon: Excell, name: "MS Excel" },
-  { icon: ML, name: "Machine Learning" },
-  { icon: BI, name: "Power BI" },
+  { icon: java, name: "Java" },
+  { icon: Cpp, name: "C++" },
+  { icon: DB, name: "Mongo DB" },
+  { icon: Node, name: "Node Js" },
   { icon: SQL, name: "MySQL" },
+  { icon: Css, name: "CSS" },
+
 ];
 
 const SkillsAndResume = () => {

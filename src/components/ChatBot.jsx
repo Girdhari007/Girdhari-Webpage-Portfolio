@@ -75,7 +75,7 @@ const ChatBot = () => {
             />
             <button
               onClick={handleSendMessage}
-              className="bg-gradient-to-r from-white-400 to-gray-200 text-white px-6 py-3 rounded-lg hover:from-teal-500 hover:to-teal-700 transition"
+              className="bg-gradient-to-r from-teal-400 to-teal-600 text-white px-6 py-3 rounded-lg hover:from-teal-500 hover:to-teal-700 transition"
             >
               Send
             </button>
